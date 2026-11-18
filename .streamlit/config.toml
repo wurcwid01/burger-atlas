@@ -1,0 +1,14 @@
+[theme]
+base = "light"
+primaryColor = "#BE6641"
+backgroundColor = "#F7F5F0"
+secondaryBackgroundColor = "#EFEBE3"
+textColor = "#25251F"
+font = "sans-serif"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+runOnSave = false
+enableStaticServing = true  # serves ./static (hand-drawn illustrations)

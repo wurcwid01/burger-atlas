@@ -1,0 +1,45 @@
+# Burger categories used by the Explore filters.
+#
+# A restaurant is tagged with a category when ANY of these is true:
+#   - an editor tagged it in the `curated_places` table (strongest signal)
+#   - it was returned by a Places search using one of `search_terms`
+#   - its name / editorial summary contains one of `keywords`
+#   - its Google place types include one of `place_types`
+#   - (budget only) its price level is at or below `max_price_level`
+
+categories:
+  - slug: smash-classic
+    label: Smash & Classic
+    blurb: Crisp-edged smash patties, cheeseburgers and diner classics.
+    search_terms: ["smash burger", "cheeseburger"]
+    keywords: ["smash", "classic", "diner", "cheeseburger", "double"]
+    place_types: []
+
+  - slug: gourmet-craft
+    label: Gourmet & Craft
+    blurb: Chef-driven builds, premium beef and house-made buns.
+    search_terms: ["gourmet burger", "craft burger"]
+    keywords: ["gourmet", "craft", "wagyu", "angus", "brioche", "gastropub", "bistro", "artisan"]
+    place_types: ["gastropub", "fine_dining_restaurant"]
+
+  - slug: chicken-fish
+    label: Chicken & Fish
+    blurb: Fried-chicken sandwiches, spicy chicken and fish burgers.
+    search_terms: ["chicken burger", "chicken sandwich"]
+    keywords: ["chicken", "fish", "fried chicken", "katsu"]
+    place_types: ["chicken_restaurant", "seafood_restaurant"]
+
+  - slug: plant-based
+    label: Plant-Based
+    blurb: Veggie, vegan and plant-protein patties.
+    search_terms: ["vegan burger", "veggie burger"]
+    keywords: ["vegan", "veggie", "vegetarian", "plant", "beyond"]
+    place_types: ["vegan_restaurant", "vegetarian_restaurant"]
+
+  - slug: budget-local
+    label: Budget & Local
+    blurb: Neighbourhood stands and great-value burgers.
+    search_terms: ["burger stand", "cheap burger"]
+    keywords: ["stand", "stall", "kiosk", "burger station", "budget"]
+    place_types: ["fast_food_restaurant"]
+    max_price_level: 1

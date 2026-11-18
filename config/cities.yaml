@@ -1,0 +1,120 @@
+# Burger Atlas — geographic configuration
+#
+# Each city is self-contained: add a new block, set `enabled: true`, and the
+# city appears in the Explore city switcher. Nothing else in the code needs
+# to change.
+#
+# District centres and radii are approximate and are used for two things:
+#   1. assigning a restaurant to a district when its address doesn't name one
+#   2. drawing the district focus on the map
+# Tune them freely. `aliases` are matched (case-insensitive) against the
+# restaurant's formatted address before falling back to nearest-centre.
+
+default_city: iloilo-city
+
+cities:
+  iloilo-city:
+    name: Iloilo City
+    region: Western Visayas
+    country_code: PH
+    enabled: true
+    currency_symbol: "₱"
+    center: { lat: 10.7065, lng: 122.5560 }
+    zoom: 13
+    # Rectangle used to restrict Places searches to the city.
+    bounds:
+      south: 10.6650
+      west: 122.5000
+      north: 10.7600
+      east: 122.6050
+    districts:
+      - slug: city-proper
+        name: City Proper
+        center: { lat: 10.6960, lng: 122.5690 }
+        radius_m: 1300
+        aliases: ["City Proper", "Iloilo City Proper"]
+      - slug: jaro
+        name: Jaro
+        center: { lat: 10.7280, lng: 122.5590 }
+        radius_m: 2200
+        aliases: ["Jaro"]
+      - slug: la-paz
+        name: La Paz
+        center: { lat: 10.7100, lng: 122.5700 }
+        radius_m: 1200
+        aliases: ["La Paz", "Lapaz"]
+      - slug: lapuz
+        name: Lapuz
+        center: { lat: 10.7000, lng: 122.5880 }
+        radius_m: 1300
+        aliases: ["Lapuz"]
+      - slug: mandurriao
+        name: Mandurriao
+        center: { lat: 10.7170, lng: 122.5390 }
+        radius_m: 2000
+        aliases: ["Mandurriao", "Iloilo Business Park", "Smallville"]
+      - slug: molo
+        name: Molo
+        center: { lat: 10.6970, lng: 122.5450 }
+        radius_m: 1300
+        aliases: ["Molo"]
+      - slug: arevalo
+        name: Arevalo
+        center: { lat: 10.6880, lng: 122.5170 }
+        radius_m: 1800
+        aliases: ["Arevalo", "Villa Arevalo"]
+
+  # --- Expansion examples -------------------------------------------------
+  # Flip `enabled` to true once you've reviewed the district geometry.
+
+  bacolod-city:
+    name: Bacolod City
+    region: Western Visayas
+    country_code: PH
+    enabled: false
+    currency_symbol: "₱"
+    center: { lat: 10.6765, lng: 122.9509 }
+    zoom: 13
+    bounds: { south: 10.6100, west: 122.9000, north: 10.7400, east: 123.0200 }
+    districts:
+      - slug: downtown
+        name: Downtown
+        center: { lat: 10.6680, lng: 122.9480 }
+        radius_m: 1500
+        aliases: ["Downtown"]
+      - slug: lacson
+        name: Lacson
+        center: { lat: 10.6840, lng: 122.9560 }
+        radius_m: 1500
+        aliases: ["Lacson"]
+      - slug: mandalagan
+        name: Mandalagan
+        center: { lat: 10.7000, lng: 122.9600 }
+        radius_m: 1800
+        aliases: ["Mandalagan"]
+
+  cebu-city:
+    name: Cebu City
+    region: Central Visayas
+    country_code: PH
+    enabled: false
+    currency_symbol: "₱"
+    center: { lat: 10.3157, lng: 123.8854 }
+    zoom: 13
+    bounds: { south: 10.2700, west: 123.8400, north: 10.3600, east: 123.9300 }
+    districts:
+      - slug: it-park
+        name: IT Park / Lahug
+        center: { lat: 10.3300, lng: 123.9050 }
+        radius_m: 1500
+        aliases: ["Lahug", "IT Park", "Apas"]
+      - slug: banilad
+        name: Banilad
+        center: { lat: 10.3430, lng: 123.9130 }
+        radius_m: 1500
+        aliases: ["Banilad"]
+      - slug: downtown
+        name: Downtown
+        center: { lat: 10.2950, lng: 123.9010 }
+        radius_m: 1500
+        aliases: ["Downtown", "Colon"]

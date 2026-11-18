@@ -1,0 +1,510 @@
+{
+ "_note": "FICTIONAL sample restaurants for demo mode only. Not real businesses; not Google content.",
+ "city": "iloilo-city",
+ "restaurants": [
+  {
+   "id": "demo-ember-bun",
+   "name": "Ember & Bun",
+   "district": "city-proper",
+   "lat": 10.6958,
+   "lng": 122.5668,
+   "rating": 4.7,
+   "rating_count": 412,
+   "price_level": 2,
+   "categories": [
+    "smash-classic",
+    "gourmet-craft"
+   ],
+   "open_now": true,
+   "summary": "Double smash patties seared on a flat-top, potato buns, house pickles.",
+   "editor_note": "The benchmark smash burger downtown — order the double with onion jam.",
+   "featured": true,
+   "address": "Sample Street, Iloilo City Proper, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-01.svg",
+    "burger-02.svg"
+   ]
+  },
+  {
+   "id": "demo-calle-real",
+   "name": "Calle Real Smash Co.",
+   "district": "city-proper",
+   "lat": 10.6936,
+   "lng": 122.5702,
+   "rating": 4.4,
+   "rating_count": 265,
+   "price_level": 1,
+   "categories": [
+    "smash-classic",
+    "budget-local"
+   ],
+   "open_now": true,
+   "summary": "Heritage-street counter serving thin, lacy-edged smash burgers.",
+   "editor_note": "Fast, cheap and crisp — a lunch-break classic.",
+   "featured": false,
+   "address": "Sample Street, Iloilo City Proper, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-02.svg",
+    "burger-03.svg"
+   ]
+  },
+  {
+   "id": "demo-jaro-plaza",
+   "name": "Plaza Patty House",
+   "district": "jaro",
+   "lat": 10.7246,
+   "lng": 122.5583,
+   "rating": 4.5,
+   "rating_count": 318,
+   "price_level": 2,
+   "categories": [
+    "smash-classic"
+   ],
+   "open_now": true,
+   "summary": "Diner-style cheeseburgers a short walk from the cathedral plaza.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Jaro, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-03.svg",
+    "burger-01.svg"
+   ]
+  },
+  {
+   "id": "demo-belfry-craft",
+   "name": "Belfry Craft Burgers",
+   "district": "jaro",
+   "lat": 10.7302,
+   "lng": 122.5612,
+   "rating": 4.8,
+   "rating_count": 190,
+   "price_level": 3,
+   "categories": [
+    "gourmet-craft"
+   ],
+   "open_now": false,
+   "summary": "Dry-aged blends, brioche baked in-house, small-batch sauces.",
+   "editor_note": "Book ahead on weekends; the truffle mushroom melt is the move.",
+   "featured": true,
+   "address": "Sample Street, Jaro, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-05.svg",
+    "burger-04.svg"
+   ]
+  },
+  {
+   "id": "demo-jaro-green",
+   "name": "Green Grill Jaro",
+   "district": "jaro",
+   "lat": 10.7215,
+   "lng": 122.5541,
+   "rating": 4.3,
+   "rating_count": 96,
+   "price_level": 2,
+   "categories": [
+    "plant-based"
+   ],
+   "open_now": true,
+   "summary": "Plant-based patties, grilled eggplant stacks and vegan aioli.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Jaro, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-08.svg",
+    "burger-09.svg"
+   ]
+  },
+  {
+   "id": "demo-lapaz-market",
+   "name": "Market Lane Burgers",
+   "district": "la-paz",
+   "lat": 10.7098,
+   "lng": 122.5712,
+   "rating": 4.2,
+   "rating_count": 540,
+   "price_level": 1,
+   "categories": [
+    "budget-local",
+    "smash-classic"
+   ],
+   "open_now": true,
+   "summary": "Neighbourhood stall by the market — great-value burgers until late.",
+   "editor_note": "Best after a bowl of batchoy next door.",
+   "featured": false,
+   "address": "Sample Street, La Paz, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-12.svg",
+    "burger-10.svg"
+   ]
+  },
+  {
+   "id": "demo-lapaz-crispy",
+   "name": "Crispy Coop",
+   "district": "la-paz",
+   "lat": 10.7121,
+   "lng": 122.5686,
+   "rating": 4.5,
+   "rating_count": 233,
+   "price_level": 2,
+   "categories": [
+    "chicken-fish"
+   ],
+   "open_now": true,
+   "summary": "Buttermilk fried-chicken sandwiches with chilli-calamansi glaze.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, La Paz, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-06.svg",
+    "burger-07.svg"
+   ]
+  },
+  {
+   "id": "demo-lapuz-dock",
+   "name": "Dockside Grill",
+   "district": "lapuz",
+   "lat": 10.6994,
+   "lng": 122.5871,
+   "rating": 4.1,
+   "rating_count": 88,
+   "price_level": 1,
+   "categories": [
+    "chicken-fish",
+    "budget-local"
+   ],
+   "open_now": true,
+   "summary": "Port-side grill turning out fish burgers and charred beef patties.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Lapuz, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-07.svg",
+    "burger-06.svg"
+   ]
+  },
+  {
+   "id": "demo-lapuz-stack",
+   "name": "Riverbank Stack",
+   "district": "lapuz",
+   "lat": 10.7012,
+   "lng": 122.5902,
+   "rating": 4.4,
+   "rating_count": 121,
+   "price_level": 2,
+   "categories": [
+    "smash-classic"
+   ],
+   "open_now": false,
+   "summary": "Stacked cheeseburgers and thick-cut fries by the river.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Lapuz, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-03.svg",
+    "burger-01.svg"
+   ]
+  },
+  {
+   "id": "demo-mand-smoke",
+   "name": "Smoke & Stack",
+   "district": "mandurriao",
+   "lat": 10.7168,
+   "lng": 122.5402,
+   "rating": 4.6,
+   "rating_count": 377,
+   "price_level": 3,
+   "categories": [
+    "gourmet-craft"
+   ],
+   "open_now": true,
+   "summary": "Smoked brisket burgers and wood-fired buns near the business park.",
+   "editor_note": "Ask for the brisket-smash hybrid.",
+   "featured": true,
+   "address": "Sample Street, Mandurriao, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-05.svg",
+    "burger-04.svg"
+   ]
+  },
+  {
+   "id": "demo-mand-park",
+   "name": "Parkside Burger Lab",
+   "district": "mandurriao",
+   "lat": 10.7195,
+   "lng": 122.5348,
+   "rating": 4.3,
+   "rating_count": 204,
+   "price_level": 2,
+   "categories": [
+    "gourmet-craft",
+    "smash-classic"
+   ],
+   "open_now": true,
+   "summary": "Rotating weekly specials, craft sodas, open-air seating.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Mandurriao, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-04.svg",
+    "burger-05.svg"
+   ]
+  },
+  {
+   "id": "demo-mand-plant",
+   "name": "Leaf & Patty",
+   "district": "mandurriao",
+   "lat": 10.7139,
+   "lng": 122.5451,
+   "rating": 4.5,
+   "rating_count": 142,
+   "price_level": 2,
+   "categories": [
+    "plant-based",
+    "chicken-fish"
+   ],
+   "open_now": true,
+   "summary": "Plant-protein burgers alongside free-range chicken options.",
+   "editor_note": "Our favourite plant-based patty in the city.",
+   "featured": false,
+   "address": "Sample Street, Mandurriao, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-09.svg",
+    "burger-08.svg"
+   ]
+  },
+  {
+   "id": "demo-molo-mansion",
+   "name": "Mansion Row Burger Bar",
+   "district": "molo",
+   "lat": 10.6972,
+   "lng": 122.5463,
+   "rating": 4.6,
+   "rating_count": 288,
+   "price_level": 2,
+   "categories": [
+    "smash-classic",
+    "gourmet-craft"
+   ],
+   "open_now": true,
+   "summary": "Heritage-house dining room with classic and premium builds.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Molo, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-01.svg",
+    "burger-02.svg"
+   ]
+  },
+  {
+   "id": "demo-molo-kiosk",
+   "name": "Plaza Kiosk Burgers",
+   "district": "molo",
+   "lat": 10.6951,
+   "lng": 122.5431,
+   "rating": 4.0,
+   "rating_count": 610,
+   "price_level": 1,
+   "categories": [
+    "budget-local"
+   ],
+   "open_now": true,
+   "summary": "Quick-serve kiosk with ₱-friendly burgers and shakes.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Molo, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-11.svg",
+    "burger-12.svg"
+   ]
+  },
+  {
+   "id": "demo-arevalo-sea",
+   "name": "Seaside Patty Shack",
+   "district": "arevalo",
+   "lat": 10.6883,
+   "lng": 122.5172,
+   "rating": 4.4,
+   "rating_count": 156,
+   "price_level": 1,
+   "categories": [
+    "chicken-fish",
+    "budget-local"
+   ],
+   "open_now": true,
+   "summary": "Beachfront shack known for grilled fish burgers at sunset.",
+   "editor_note": "Go at golden hour.",
+   "featured": false,
+   "address": "Sample Street, Arevalo, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-06.svg",
+    "burger-07.svg"
+   ]
+  },
+  {
+   "id": "demo-arevalo-flower",
+   "name": "Villa Grill & Burgers",
+   "district": "arevalo",
+   "lat": 10.6869,
+   "lng": 122.5228,
+   "rating": 4.2,
+   "rating_count": 101,
+   "price_level": 2,
+   "categories": [
+    "smash-classic"
+   ],
+   "open_now": false,
+   "summary": "Family grill with charcoal-kissed cheeseburgers.",
+   "editor_note": "",
+   "featured": false,
+   "address": "Sample Street, Arevalo, Iloilo City, Iloilo",
+   "hours": [
+    "Monday: 10:00 AM – 10:00 PM",
+    "Tuesday: 10:00 AM – 10:00 PM",
+    "Wednesday: 10:00 AM – 10:00 PM",
+    "Thursday: 10:00 AM – 10:00 PM",
+    "Friday: 10:00 AM – 11:00 PM",
+    "Saturday: 10:00 AM – 11:00 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
+   ],
+   "photos": [
+    "burger-01.svg",
+    "burger-02.svg"
+   ]
+  }
+ ]
+}

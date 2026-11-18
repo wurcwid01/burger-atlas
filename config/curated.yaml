@@ -1,0 +1,21 @@
+# Editor's picks — Burger Atlas's own curation layered on top of Google results.
+#
+# Add a place by its Google place ID (find one with Google's Place ID Finder:
+# https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder)
+#
+#   place_id:   required
+#   featured:   true → "Editor's pick" badge, shown first in Recommended
+#   note:       a short "Atlas take" shown on cards and the details page
+#   categories: any of smash-classic, gourmet-craft, chicken-fish, plant-based, budget-local
+#   district:   override the automatic district (city-proper, jaro, la-paz, lapuz,
+#               mandurriao, molo, arevalo)
+#
+# Edit, commit, and Streamlit Cloud redeploys automatically.
+
+cities:
+  iloilo-city:
+    # - place_id: ChIJxxxxxxxxxxxxxxxxxxxxxxx
+    #   featured: true
+    #   note: "Order the double with onion jam."
+    #   categories: [smash-classic]
+    #   district: jaro
